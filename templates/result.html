@@ -1,0 +1,37 @@
+<html>
+<head>
+<style>
+h1.padding {
+padding-top:2cm;
+    padding-left: 2cm;
+font-size:2cm;
+}
+h2.padding2 {
+font-size:1cm;
+}
+h1.def{
+padding-left:1.3cm;
+font-size:0.75cm;
+}
+.boxed {
+  border: 5px solid green ;
+} 
+
+.image {
+ max-width:100%
+}
+
+</style>
+</head>
+<title>Prediction</title>
+</head>
+<body background="b.png">
+<h1 padding-left="50" class="padding">Prediction</h1>
+<hr width="80%" size="5"></br></br>
+
+<h1 class="def">Predicted Amount:  {{ output }}</h1>
+<h1 class="def">Mean Absolute Error:  {{ error }}</h1>
+<p> Graph: </p>
+<div class="boxed">
+<img src='static/abc.jpg' alt='Plot' class='image'>
+</div>
